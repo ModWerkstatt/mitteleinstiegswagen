@@ -1,0 +1,2468 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 13.176, 1.45723, 4.17571, },
+		bbMin = { -13.176, -1.45723, 0, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 32.244251251221, 1.5048484802246, 2.106575012207, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/rumpf_klasse1_lod0.msh",
+						name = "neu_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/uebergang_lod0.msh",
+						name = "ubergang",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod0.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 5,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 6,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+					        {
+						        _meshId = 7,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/generator_lod0.msh",
+						        name = "generator",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+						        _meshId = 9,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod0.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 10,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 11,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod0.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+                    },
+					{
+						_meshId = 12,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/innen.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/innen_klasse1_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 13,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/glas_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 14,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/kupplung_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 15,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/unterbau_lod0.msh",
+						name = "neu_unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						_meshId = 16,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/stufe_alt_lod0.msh",
+						name = "stufe_alt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 17,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1l_lod0.msh",
+	                    name = "tuer_1l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_left = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_left = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 18,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_2l_lod0.msh",
+			                    name = "tritt_innen_2l",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.37352859973907, -0.044891357421875, 0.082373730838299, 1, },
+		                    },
+	                    },
+	                    _meshId = 19,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2l_lod0.msh",
+	                    name = "tuer_2l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, 1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_left = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_left = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 20,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_3l_lod0.msh",
+			                    name = "tritt_innen_3l",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.38185971975327, -0.044891510158777, 0.0823734998703, 1, },
+		                    },
+	                    },
+	                    _meshId = 21,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3l_lod0.msh",
+	                    name = "tuer_3l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, 1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 22,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4l_lod0.msh",
+	                    name = "tuer_4l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 23,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1r_lod0.msh",
+	                    name = "tuer_1r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_right = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_right = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 24,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_2r_lod0.msh",
+			                    name = "tritt_2r",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.37352859973907, 0.044891357421875, 0.082373730838299, 1, },
+		                    },
+	                    },
+	                    _meshId = 25,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2r_lod0.msh",
+	                    name = "tuer_2r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, -1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_right = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_right = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 26,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_3r_lod0.msh",
+			                    name = "tritt_3r",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.38185971975327, 0.044891510158777, 0.0823734998703, 1, },
+		                    },
+	                    },
+	                    _meshId = 27,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3r_lod0.msh",
+	                    name = "tuer_3r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, -1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 28,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4r_lod0.msh",
+	                    name = "tuer_4r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+					{
+						_meshId = 29,
+                        materials = { "vehicle/waggon/mWagen/red_lights.mtl", },
+						mesh = "vehicle/waggon/mWagen/zugschlussleuchte_oben_lod0.msh",
+						name = "licht_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 35,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/rumpf_klasse1_lod1.msh",
+						name = "neu_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/uebergang_lod1.msh",
+						name = "ubergang",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod1.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 5,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 6,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+					        {
+						        _meshId = 7,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/generator_lod1.msh",
+						        name = "generator",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					        },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+						        _meshId = 9,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod1.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 10,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 11,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod1.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+                    },
+					{
+						_meshId = 12,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/innen.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/innen_klasse1_lod1.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 13,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/glas_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 14,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/kupplung_lod1.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 15,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/unterbau_lod1.msh",
+						name = "neu_unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						_meshId = 16,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/stufe_alt_lod1.msh",
+						name = "stufe_alt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 17,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1l_lod1.msh",
+	                    name = "tuer_1l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_left = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_left = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 18,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_2l_lod1.msh",
+			                    name = "tritt_innen_2l",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.37352859973907, -0.044891357421875, 0.082373730838299, 1, },
+		                    },
+	                    },
+	                    _meshId = 19,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2l_lod1.msh",
+	                    name = "tuer_2l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, 1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_left = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_left = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3l.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 20,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_3l_lod1.msh",
+			                    name = "tritt_innen_3l",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.38185971975327, -0.044891510158777, 0.0823734998703, 1, },
+		                    },
+	                    },
+	                    _meshId = 21,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3l_lod1.msh",
+	                    name = "tuer_3l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, 1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 22,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4l_lod1.msh",
+	                    name = "tuer_4l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 23,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1r_lod1.msh",
+	                    name = "tuer_1r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_right = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_right = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_2r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 24,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_2r_lod1.msh",
+			                    name = "tritt_2r",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.37352859973907, 0.044891357421875, 0.082373730838299, 1, },
+		                    },
+	                    },
+	                    _meshId = 25,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2r_lod1.msh",
+	                    name = "tuer_2r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, -1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+                        children = {
+		                    {
+                                animations = {
+				                    open_all_doors = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_all_doors = {
+                                        forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    open_doors_right = {
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+				                    close_doors_right = {
+					                    forward = false,
+					                    params = {
+						                    id = "vehicle/waggon/Mitteleinstiegswagen/tritt_3r.ani",
+					                    },
+					                    type = "FILE_REF",
+				                    },
+			                    },
+			                    _meshId = 26,
+                                materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+			                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tritt_3r_lod1.msh",
+			                    name = "tritt_3r",
+			                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.38185971975327, 0.044891510158777, 0.0823734998703, 1, },
+		                    },
+	                    },
+	                    _meshId = 27,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3r_lod1.msh",
+	                    name = "tuer_3r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, -1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 28,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4r_lod1.msh",
+	                    name = "tuer_4r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+					{
+						_meshId = 29,
+                        materials = { "vehicle/waggon/mWagen/red_lights.mtl", },
+						mesh = "vehicle/waggon/mWagen/zugschlussleuchte_oben_lod0.msh",
+						name = "licht_oben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 35,
+			visibleTo = 100,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/rumpf_klasse1_lod2.msh",
+						name = "neu_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 2,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/uebergang_lod2.msh",
+						name = "ubergang",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod2.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 5,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 6,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+						        _meshId = 8,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod2.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 9,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 10,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod2.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+                    },
+					{
+						_meshId = 11,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/innen.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/innen_klasse1_lod2.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 12,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/glas_lod0.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 13,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/kupplung_lod2.msh",
+						name = "kupplung",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						_meshId = 14,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/unterbau_lod2.msh",
+						name = "neu_unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+						_meshId = 15,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/mWagen/stufe_alt_lod2.msh",
+						name = "stufe_alt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 16,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1l_lod2.msh",
+	                    name = "tuer_1l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 17,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2l_lod2.msh",
+	                    name = "tuer_2l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, 1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 18,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3l_lod2.msh",
+	                    name = "tuer_3l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, 1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 19,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4l_lod2.msh",
+	                    name = "tuer_4l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 20,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1r_lod2.msh",
+	                    name = "tuer_1r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 21,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2r_lod2.msh",
+	                    name = "tuer_2r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, -1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 22,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3r_lod2.msh",
+	                    name = "tuer_3r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, -1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 23,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4r_lod2.msh",
+	                    name = "tuer_4r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 100,
+			visibleTo = 300,
+		},
+        {
+			node = {
+				children = {
+					{
+						_meshId = 1,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/rumpf_klasse1_lod3.msh",
+						name = "neu_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+                        children = {
+					        {
+						        _meshId = 4,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod3.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 5,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod3.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 6,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod3.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie1",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 9.46909, 0, 0, 1, },
+                    },
+                    {
+                        children = {
+					        {
+						        _meshId = 8,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/bogie_lod3.msh",
+						        name = "bogie",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+        					},
+                            {
+						        _meshId = 9,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod3.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.24191, 0, 0.469196, 1, },
+					        },
+                            {
+						        _meshId = 10,
+                                materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						        mesh = "vehicle/waggon/mWagen/rad_lod3.msh",
+						        name = "rad",
+						        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.24191, 0, 0.469196, 1, },
+					        },
+                        },
+				        name = "bogie2",
+				        transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -9.46909, 0, 0, 1, },
+                    },
+					{
+						_meshId = 14,
+                        materials = { "vehicle/waggon/mWagen/allgemein.mtl", },
+						mesh = "vehicle/waggon/Mitteleinstiegswagen/unterbau_lod3.msh",
+						name = "neu_unterbau",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 16,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1l_lod3.msh",
+	                    name = "tuer_1l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 17,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2l_lod3.msh",
+	                    name = "tuer_2l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, 1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 18,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3l_lod3.msh",
+	                    name = "tuer_3l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, 1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_left = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_left = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2l.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 19,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4l_lod3.msh",
+	                    name = "tuer_4l",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, 1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_1r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 20,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_1r_lod3.msh",
+	                    name = "tuer_1r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 21,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_2r_lod3.msh",
+	                    name = "tuer_2r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.088833443820477, -1.4125000238419, 1.201962351799, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/Mitteleinstiegswagen/tuer_3r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 22,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_3r_lod3.msh",
+	                    name = "tuer_3r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.6429430246353, -1.4125000238419, 1.2019625902176, 1, },
+                    },
+                    {
+	                    animations = {
+		                    open_all_doors = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_all_doors = {
+                                forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    open_doors_right = {
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+		                    close_doors_right = {
+			                    forward = false,
+			                    params = {
+				                    id = "vehicle/waggon/mWagen/alt/tuer_2r.ani",
+			                    },
+			                    type = "FILE_REF",
+		                    },
+	                    },
+	                    _meshId = 23,
+                        materials = { "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/rumpf_BC.mtl", "vehicle/waggon/Mitteleinstiegswagen/AB4yl-51/glas.mtl", },
+	                    mesh = "vehicle/waggon/Mitteleinstiegswagen/tueren/tuer_4r_lod3.msh",
+	                    name = "tuer_4r",
+	                    transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -12.767667770386, -1.370246887207, 1.2444965839386, 1, },
+                    },
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300,
+			visibleTo = 1500,
+		},
+	},
+	metadata = {
+		availability = {
+			yearFrom = 1951,
+			yearTo = 1956,
+		},
+		cost = {
+			price = -1,
+			priceScale = 1,
+		},
+		description = {
+			name = _("BC4yg-51_name") .. _("pulled"),
+			description = _("BC4yg-51_desc") .. _("pulled"),
+		},
+		emission = {
+			idleEmission = -1,
+			powerEmission = -1,
+			speedEmission = -1,
+		},
+		maintenance = {
+			lifespan = 21915,
+			runningCostScale = 1,
+			runningCosts = -1,
+		},
+		railVehicle = {
+			configs = {
+                {
+					axles = { "vehicle/waggon/mWagen/rad_lod0.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 29, },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/mWagen/rad_lod1.msh", },
+					backBackwardParts = { },
+					backForwardParts = { 29, },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/mWagen/rad_lod2.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+                {
+					axles = { "vehicle/waggon/mWagen/rad_lod3.msh", },
+					backBackwardParts = { },
+					backForwardParts = { },
+					frontBackwardParts = { },
+					frontForwardParts = { },
+					innerBackwardParts = { },
+					innerForwardParts = { },
+				},
+            },
+			engines = { },
+			soundSet = {
+				name = "UIC-X",
+			},
+			topSpeed = 33.33333333,
+			weight = 39.0,
+		},
+		seatProvider = {
+			crewModels = { },
+			drivingLicense = "RAIL",
+			seats = {
+                {
+					animation = "sitting",
+					crew = false,
+                    forward = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.6, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.6, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.3, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.3, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.6, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.6, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.75, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.75, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.3, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.3, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.7, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.7, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.7, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.7, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.45, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.45, -0.55, 1.32, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.6, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 9.6, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.3, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 8.3, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.6, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 7.6, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 6.3, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.75, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 5.75, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.3, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 4.3, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.7, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 3.7, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 2.4, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.7, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, 1.7, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.45, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.45, 0.55, 1.32, 1, },
+				},
+
+                -- Mitteltür
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.2, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.2, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.5, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.5, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.0, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.0, -0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.0, -1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.0, -0.55, 1.32, 1, },
+				},
+
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.2, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -2.2, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -3.75, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -4.9, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.5, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -5.5, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.55, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -7.2, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -8.3, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.0, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { -1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1, 0, -9.0, 0.55, 1.32, 1, },
+				},
+                {
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.0, 1.05, 1.32, 1, },
+				},
+				{
+					animation = "sitting",
+					crew = false,
+					group = 0,
+					transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -10.0, 0.55, 1.32, 1, },
+				},
+			},
+		},
+		transportVehicle = {
+			carrier = "RAIL",
+			compartmentsList = {
+				{
+					loadConfigs = {
+						{
+							cargoEntries = {
+								{
+									capacity = 72,
+									seats = { },
+									type = "PASSENGERS",
+								},
+							},
+							toHide = { },
+						},
+					},
+				},
+			},
+			loadSpeed = 4,
+			multipleUnitOnly = false,
+			reversible = false,
+            groupFileName = "vehicle/waggon/Mitteleinstiegswagen/menu_Mitteleinstiegswagen.mdl",
+		},
+	},
+	version = 1,
+}
+end

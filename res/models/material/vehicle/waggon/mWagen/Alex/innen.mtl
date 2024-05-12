@@ -1,0 +1,30 @@
+function data()
+return {
+    order = 0,
+	params = {
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/waggon/mWagen/Alex/innen_albedo.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/waggon/mWagen/Aim260/innen_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			units = 0,
+		},
+		props = {
+			coeffs = { 1, 1, 1, 10, },
+		},
+		two_sided = {
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL",
+}
+end
